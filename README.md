@@ -28,10 +28,14 @@ V1.0
 
 演示如下
 
-
 ![f02715157e9be563bfa82c92715748d5_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/ba6f267d-ab24-4b07-9c39-13304f4cfed9)
+
 ![522d0a3cff1c3024364c273bf66a544e](https://github.com/acewinner1999/LocalizationData/assets/24372596/326e784d-ab34-452b-9ae2-4780f1433d65)
+
 ![519994f6cf8131eadf679dfd4645b394_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/75d6f914-8e07-4e15-9954-241c5e63f724)
+
 ![a4367a98205dcc4ecff78b7343d7e80d_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/2fba9fb8-a9b4-487b-8a1d-8067370c0ee9)
+
 ![1ca30dfff0b0afc4f1e461b10dc39b4a_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/250a140e-e157-4094-b725-214dc9a102b7)
+
 ![b40052c3ac505b4935d47a76de82c472_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/80160db4-ac7b-4dc4-aafb-bab61948f6ff)
