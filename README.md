@@ -24,3 +24,12 @@ V1.1
 V1.0
 立项
 添加货物中英对照和常用货物标准价格显示
+
+
+演示如下
+![f02715157e9be563bfa82c92715748d5_720](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/2549daf8-3ec5-466f-b91c-f9d92b99df5a)
+![522d0a3cff1c3024364c273bf66a544e](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/b5a08a50-9bbd-4dbb-9101-01426a5e13c5)
+![519994f6cf8131eadf679dfd4645b394_720](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/175be797-ee84-4c1e-8257-22aaaddd5192)
+![a4367a98205dcc4ecff78b7343d7e80d_720](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/a7642978-20c0-4484-b008-f73e4f1e31ec)
+![1ca30dfff0b0afc4f1e461b10dc39b4a_720](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/5b462163-d33f-4d5c-9bda-fc51dd54a564)
+![b40052c3ac505b4935d47a76de82c472_720](https://github.com/StarCitizenToolBox/LocalizationData/assets/24372596/0ecc8d3e-9757-4a7d-a6ef-26a9f59132bb)
