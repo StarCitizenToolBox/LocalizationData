@@ -41,3 +41,5 @@ V1.0
 ![b40052c3ac505b4935d47a76de82c472_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/80160db4-ac7b-4dc4-aafb-bab61948f6ff)
 
 ![9dfe0b230c476819fa6924546ac03d34_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/6eef4773-3cf6-4de0-9f64-d662354d99e7)
+
+![9049b1bff36943af31b5cd343ae84f9a_720](https://github.com/acewinner1999/LocalizationData/assets/24372596/cd23afe7-c2d1-4f48-b4dc-afe8a362de4b)
