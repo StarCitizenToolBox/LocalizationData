@@ -1,8 +1,5 @@
-# 星际公民中文汉化资源 (WIP)
-该仓库会定时更新最新的汉化文本，并创建 tag，可使用 gitlab api 下载最新更新。
-
-## 截图
-![汉化截图.png](https://s2.loli.net/2023/09/23/ePVw9Hzkn3pJgsF.png)
+# 星际公民 最新英文原版 Global.ini
+该仓库会定时更新最新Live的英文文本，并创建 tag，可使用 gitlab api 下载最新更新。
 
 ## 手动安装
 1. 前往 [TAGS](https://github.com/StarCitizenToolBox/LocalizationData/tags) 页面，选择最新的版本，点击下载源代码（zip）。
