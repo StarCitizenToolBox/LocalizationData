@@ -1,4 +1,6 @@
 # TCTP / 星際公民繁體中文(台灣本地化修正)翻譯計畫
+[![Crowdin](https://badges.crowdin.net/scct_zh-tw/localized.svg)](https://crowdin.com/project/scct_zh-tw)
+
 此計劃旨在針對遊戲內容、設定選項等內容進行台灣本地化用語修正，並透過高標準的專業學術資料來源與對遊戲世界觀塑造進行深入的研究實現了頂尖水準的翻譯。
 
 [**立即下載**](https://sctranslator.danidomen.com/download?locale=cn_traditional&hash=4ff20a445456db1ef318f3b1c000b481)
