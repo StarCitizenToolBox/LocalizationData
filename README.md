@@ -3,7 +3,6 @@
 主翻@Qianniye
 精校/核对/发布@Northern_Lights
 
-[========]
 
 ## V2.4 3.24.2(PU)_CNRSUI_V2
 1. 同步部分专有名词到与汉化组一致
