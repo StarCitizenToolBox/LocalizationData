@@ -1,0 +1,28 @@
+name: PR Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+jobs:
+  run-rust:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Check runner_tools
+        uses: actions/checkout@v2
+        with:
+          repository: StarCitizenToolBox/runner_tools
+          path: runner_tools
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Run Rust code
+        run: cargo run --manifest-path ./runner_tools/localization/Cargo.toml pr_check --release
