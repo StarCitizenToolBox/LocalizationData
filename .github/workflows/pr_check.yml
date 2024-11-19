@@ -3,6 +3,8 @@ name: PR Check
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    branches:
+      - '**'
   workflow_dispatch:
 
 jobs:
