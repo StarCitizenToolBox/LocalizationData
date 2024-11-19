@@ -11,18 +11,22 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Check runner_tools
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: StarCitizenToolBox/runner_tools
           path: runner_tools
-
+        
       - name: Set up Rust
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
+        uses: dtolnay/rust-toolchain@stable
 
-      - name: Run Rust code
+      - name: Rust Cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: "rust"
+          cache-all-crates: true
+
+      - name: PR Check
         run: cargo run --manifest-path ./runner_tools/localization/Cargo.toml pr_check --release
