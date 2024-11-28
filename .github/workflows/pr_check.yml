@@ -8,27 +8,30 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-rust:
+  rust-pr-check:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Check runner_tools
-        uses: actions/checkout@v4
-        with:
-          repository: StarCitizenToolBox/runner_tools
-          path: runner_tools
         
       - name: Set up Rust
         uses: dtolnay/rust-toolchain@stable
-
+      
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "rust"
           cache-all-crates: true
+          prefix-key: "rs_cache"
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          shared-key: "share"
 
+      - name: Setup localization runner tools
+        run: cargo install --git https://github.com/StarCitizenToolBox/runner_tools.git --tag v1.0.0 localization
+  
       - name: PR Check
-        run: cargo run --manifest-path ./runner_tools/localization/Cargo.toml pr_check --release
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_PR_NUMBER: ${{ github.event.pull_request.id }}
+          GH_PR_TITLE: ${{ github.event.pull_request.title }}
+        run: localization -m pr_check
