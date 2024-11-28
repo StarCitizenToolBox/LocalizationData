@@ -8,27 +8,35 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-rust:
+  rust-pr-check:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check runner_tools
+      - name: Checkout runner_tools
         uses: actions/checkout@v4
         with:
           repository: StarCitizenToolBox/runner_tools
           path: runner_tools
+          ref: v1.0.0
         
       - name: Set up Rust
         uses: dtolnay/rust-toolchain@stable
-
+      
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "rust"
+          workspaces: "runner_tools/localization"
           cache-all-crates: true
+          prefix-key: "rs_cache"
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          shared-key: "share"
 
       - name: PR Check
-        run: cargo run --manifest-path ./runner_tools/localization/Cargo.toml pr_check --release
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_PR_NUMBER: ${{ github.event.pull_request.id }}
+          GH_PR_TITLE: ${{ github.event.pull_request.title }}
+        run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m pr_check

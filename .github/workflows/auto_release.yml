@@ -1,0 +1,38 @@
+name: Check Auto Release
+
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout runner_tools
+        uses: actions/checkout@v4
+        with:
+          repository: StarCitizenToolBox/runner_tools
+          path: runner_tools
+          ref: v1.0.0
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust Cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: "runner_tools/localization"
+          cache-all-crates: true
+          prefix-key: "rs_cache"
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          shared-key: "share"
+
+      - name: Auto Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release
