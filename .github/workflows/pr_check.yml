@@ -33,10 +33,11 @@ jobs:
           prefix-key: "rs_cache"
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           shared-key: "share"
-
+      - name: Setup localization runner tools
+        run: cargo install --path ./runner_tools/localization
       - name: PR Check
         env:
           GH_REPO: ${{ github.repository }}
           GH_PR_NUMBER: ${{ github.event.pull_request.id }}
           GH_PR_TITLE: ${{ github.event.pull_request.title }}
-        run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m pr_check
+        run: localization -m pr_check

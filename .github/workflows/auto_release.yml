@@ -30,9 +30,10 @@ jobs:
           prefix-key: "rs_cache"
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           shared-key: "share"
-
+      - name: Setup localization runner tools
+        run: cargo install --path ./runner_tools/localization
       - name: Auto Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_REPO: ${{ github.repository }}
-        run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release
+        run: localization -m auto_release
