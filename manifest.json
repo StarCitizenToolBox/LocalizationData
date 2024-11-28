@@ -7,7 +7,7 @@
                 {
                     "enabled": true,
                     "branch": "main",
-                    "version": "3.24.3(PU)_CN_V0",
+                    "version": "3.24.3(PU)_CN_V6",
                     "info": "[汉化组] 简中全汉化",
                     "note": "该版本由星际公民汉化组提供"
                 },
@@ -69,5 +69,5 @@
         }
     ],
     "target_api_repo": "StarCitizenToolBox/Api",
-    "target_api_branch": "test"
+    "target_api_branch": "main"
 }
