@@ -34,7 +34,7 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           shared-key: "share"
       - name: Setup localization runner tools
-        run: cargo install --path ./runner_tools/localization
+        run: cargo install --path ./runner_tools/localization --locked
       - name: PR Check
         env:
           GH_REPO: ${{ github.repository }}
