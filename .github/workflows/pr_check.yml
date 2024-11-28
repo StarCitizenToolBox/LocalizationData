@@ -21,7 +21,6 @@ jobs:
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "runner_tools/localization"
           cache-all-crates: true
           prefix-key: "rs_cache"
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
