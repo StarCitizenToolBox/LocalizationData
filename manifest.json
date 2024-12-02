@@ -45,6 +45,13 @@
                     "version": "4.0.0(PTU)_CN_V1",
                     "info": "[汉化组] 简中全汉化",
                     "note": "该版本由星际公民汉化组提供"
+                },
+                {
+                    "enabled": true,
+                    "branch": "main",
+                    "version": "4.0.0(PTU)_CNRSUI_V1",
+                    "info": "[汉化组] 简中全汉化",
+                    "note": "该版本由星际公民汉化组提供"
                 }
             ]
         },
