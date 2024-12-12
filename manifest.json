@@ -1,5 +1,5 @@
 {
-    "update_time": "2024-12-11 10:10",
+    "update_time": "2024-12-12 10:35",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -42,7 +42,7 @@
                 {
                     "enabled": true,
                     "branch": "main",
-                    "version": "4.0.0(PTU)_CN_V1",
+                    "version": "4.0.0(PTU)_CN_V2",
                     "info": "[汉化组] 简中全汉化",
                     "note": "该版本由星际公民汉化组提供"
                 },
