@@ -1,5 +1,5 @@
 {
-    "update_time": "2024-12-16 20:30",
+    "update_time": "2024-12-19 09:20",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -49,7 +49,7 @@
                 {
                     "enabled": true,
                     "branch": "main",
-                    "version": "4.0.0(PTU)_CNRSUI_V5",
+                    "version": "4.0.0(PTU)_CNRSUI_V6",
                     "info": "[社区] 简中双语增强汉化",
                     "note": "由RSUI红星联合工业舰队提供的双语修改版本，基于社区汉化、游戏文本二次修改翻译。"
                 },
