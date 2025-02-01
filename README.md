@@ -3,6 +3,9 @@
 主翻@Qianniye
 精校/核对/发布@Northern_Lights
 
+## 4.0.1.PU.V1
+1.同步PTU版汉化
+2.文本更新至 4.0.1-live.9499080
 
 ## V2.5 3.24.3(PU)_CNRSUI_V1
 1.文本更新至live最新版
