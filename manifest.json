@@ -1,5 +1,5 @@
 {
-    "update_time": "2025-03-03 19:40",
+    "update_time": "2025-03-10 13:00",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -14,7 +14,7 @@
                              {
                     "enabled": true,
                     "branch": "cn_search",
-                    "version": "4.0.2(PU)_CN_SEARCH_V1",
+                    "version": "4.0.2(PU)_CN_SEARCH_V1.1",
                     "info": "[汉化组] 简中地点双语版",
                     "note": "该版本由星际公民汉化组提供，为地点增加英文双语，便于搜索"
                 },
