@@ -61,7 +61,7 @@
                     "note": "该版本由星际公民汉化组提供，为地点增加英文双语，便于搜索"
                 },
                 {
-                    "enabled": true,
+                    "enabled": false,
                     "branch": "cn_rsui",
                     "version": "4.1.0(PTU)_CNRSUI_V3",
                     "info": "[社区] 简中双语增强汉化",
@@ -75,7 +75,7 @@
                     "note": "该版本由星际公民汉化组提供，在全汉化的基础上保留了地面名称，载具名称，物品名称为英文。"
                 },
                 {
-                    "enabled": true,
+                    "enabled": false,
                     "branch": "cn_en",
                     "version": "4.1.0(PTU)_CNEN_V3",
                     "info": "[汉化组] 简中双语汉化",
