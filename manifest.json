@@ -61,7 +61,7 @@
                     "note": "该版本由星际公民汉化组提供，为地点增加英文双语，便于搜索"
                 },
                 {
-                    "enabled": false,
+                    "enabled": true,
                     "branch": "cn_rsui",
                     "version": "4.1.0(PTU)_CNRSUI_V3",
                     "info": "[社区] 简中双语增强汉化",
