@@ -1,5 +1,5 @@
 {
-    "update_time": "2025-07-18 20:20",
+    "update_time": "2025-07-20 01:40",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -96,7 +96,7 @@
                 {
                     "enabled": true,
                     "branch": "tw",
-                    "version": "4.2.0(PU)_TW_V1",
+                    "version": "4.2.1(PU)_TW_V1",
                     "info": "繁體中文本地化（TW）",
                     "note": "星際公民繁體中文台灣本地化修正翻譯計畫(TCTP) 提供了一個基於星際公民漢化組簡體中文翻譯版本所翻譯的品質穩定的台灣本地化繁體中文版本，並且持續穩定的進行更新。"
                 },
