@@ -1,5 +1,5 @@
 {
-    "update_time": "2025-09-19 10:50",
+    "update_time": "2025-09-19 14:30",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -7,14 +7,14 @@
                  {
                     "enabled": true,
                     "branch": "main",
-                    "version": "4.3.1(PU)_CN_V1.1",
+                    "version": "4.3.1(PU)_CN_V1.2",
                     "info": "[汉化组] 简中全汉化",
                     "note": "该版本由星际公民汉化组提供，纯中文版汉化"
                 },
                              {
                     "enabled": true,
                     "branch": "cn_search",
-                    "version": "4.3.1(PU)_CN_SEARCH_V1.1",
+                    "version": "4.3.1(PU)_CN_SEARCH_V1.2",
                     "info": "[汉化组] 简中地点双语版",
                     "note": "该版本由星际公民汉化组提供，为地点增加英文双语，便于搜索"
                 },
@@ -28,21 +28,21 @@
                 {
                     "enabled": true,
                     "branch": "cn_e",
-                    "version": "4.3.1(PU)_CNE_V1.1",
+                    "version": "4.3.1(PU)_CNE_V1.2",
                     "info": "[汉化组] 简中半汉化",
                     "note": "该版本由星际公民汉化组提供，在全汉化的基础上保留了地面名称，载具名称，物品名称为英文。"
                 },
                 {
                     "enabled": true,
                     "branch": "cn_en",
-                    "version": "4.3.1(PU)_CNEN_V1.1",
+                    "version": "4.3.1(PU)_CNEN_V1.2",
                     "info": "[汉化组] 简中双语汉化",
                     "note": "该版本由星际公民汉化组提供，提供中英文双语显示。"
                 },
                 {
                     "enabled": true,
                     "branch": "cn_pinyin",
-                    "version": "4.3.1(PU)_CN_PINYIN_V1.1",
+                    "version": "4.3.1(PU)_CN_PINYIN_V1.2",
                     "info": "[汉化组] 简中拼音搜索汉化",
                     "note": "由星际公民汉化组提供，为地点名称增加了拼音首字母后缀，便于搜索。"
                 }, 
