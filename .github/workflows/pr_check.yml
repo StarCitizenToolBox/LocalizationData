@@ -27,7 +27,7 @@ jobs:
           shared-key: "share"
 
       - name: Setup localization runner tools
-        run: cargo install --git https://github.com/StarCitizenToolBox/runner_tools.git --tag v1.0.1 localization
+        run: cargo install --git https://github.com/StarCitizenToolBox/runner_tools.git --tag v1.0.2 localization
   
       - name: PR Check
         env:
