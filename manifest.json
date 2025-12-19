@@ -1,5 +1,5 @@
 {
-    "update_time": "2025-12-18 14:20",
+    "update_time": "2025-12-19 11:50",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -21,7 +21,7 @@
                 {
                     "enabled": true,
                     "branch": "cn_rsui",
-                    "version": "4.4.0(PU)_CNRSUI_V1",
+                    "version": "4.5.0(PU)_CNRSUI_V1",
                     "info": "[社区] 简中双语增强汉化",
                     "note": "由 RSUI 红星联合工业舰队提供的双语修改版本 \n\n增加了任务、组件等游戏原本不具备的描述文本。\n\n内容错漏、建议加Q群：1011682468"
                 },
