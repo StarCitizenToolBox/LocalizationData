@@ -1,5 +1,5 @@
 {
-    "update_time": "2026-03-19 21:22",
+    "update_time": "2026-03-19 21:24",
     "languages": [
         {
             "name": "chinese_(simplified)",
@@ -21,9 +21,16 @@
                 {
                     "enabled": true,
                     "branch": "main",
-                    "version": "4.3.2(PTU)_CN_1",
+                    "version": "4.3.2(Live)_CN_1",
                     "info": "[汉化组] 简中全汉化",
                     "note": "该版本由星际公民汉化组提供，纯中文版汉化"
+                },
+                {
+                    "enabled": true,
+                    "branch": "main",
+                    "version": "4.3.2(PTU)_CN_1",
+                    "info": "[汉化组] 简中全汉化",
+                    "note": "该版本由星际公民汉化组提供，纯英文版汉化"
                 }
             ]
         }
